@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "gh-pages": "^2.1.1",
+    "global": "^4.4.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "name": "ecologysystemworld.io",
+  "version": "1.0.0",
+  "description": "ESW the first eco friendly project on crypto and blockchain based on EOS",
+  "main": "index.js",
+  "devDependencies": {
+    "react-scripts": "^3.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "build": "react-scripts build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecologysystemworld/ecologysystemworld.io.git"
+  },
+  "keywords": [
+    "ESW",
+    "EOSIO",
+    "ECOLOGY",
+    "WORLD",
+    "GREEN"
+  ],
+  "author": "ESW",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecologysystemworld/ecologysystemworld.io/issues"
+  },
+  "homepage": "https://github.com/ecologysystemworld/ecologysystemworld.io#readme"
+}
