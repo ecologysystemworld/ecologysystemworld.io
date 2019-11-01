@@ -1,39 +1,37 @@
 {
-  "dependencies": {
-    "gh-pages": "^2.1.1",
-    "global": "^4.4.0",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0"
-  },
   "name": "ecologysystemworld.io",
-  "version": "1.0.0",
-  "description": "ESW the first eco friendly project on crypto and blockchain based on EOS",
-  "main": "index.js",
-  "devDependencies": {
-    "react-scripts": "^3.2.0"
+  "version": "0.1.0",
+  "private": false,
+  "homepage": "http://ecologysystemworld.github.io/ecologysystemworld.io",
+  "dependencies": {
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
-    "test": "react-scripts test",
     "build": "react-scripts build",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "cp ./src/CNAME build/ && gh-pages -d build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ecologysystemworld/ecologysystemworld.io.git"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "keywords": [
-    "ESW",
-    "EOSIO",
-    "ECOLOGY",
-    "WORLD",
-    "GREEN"
-  ],
-  "author": "ESW",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ecologysystemworld/ecologysystemworld.io/issues"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
-  "homepage": "https://github.com/ecologysystemworld/ecologysystemworld.io#readme"
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
 }
