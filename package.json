@@ -2,8 +2,6 @@
   "name": "ecologysystemworld.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ecologysystemworld.github.io/ecologysystemworld.io",
-  "main": "src/index.js",
   "dependencies": {
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
