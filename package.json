@@ -10,9 +10,9 @@
     "react-scripts": "3.2.0"
   },
   "scripts": {
-    "start": "NODE_PATH=./src react-scripts start",
-    "build": "NODE_PATH=./src react-scripts build",
-    "build-css": "NODE_PATH=./src npm run build-css",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build-css": "npm run build-css",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
