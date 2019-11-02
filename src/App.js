@@ -10,9 +10,7 @@ function App() {
         <p>
          ESW- 100% biodegradable Moreno is coming!
         </p>
-        <a
-          "moreno@ecologysystemworld.io"
-        >
+          moreno@ecologysystemworld.io
           Website Construction in progress
         </a>
       </header>
