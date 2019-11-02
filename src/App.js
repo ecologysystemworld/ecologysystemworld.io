@@ -1,18 +1,14 @@
-import React from 'react';
-import './App.css';
-import logo from './logo.svg';
+import React from "react";
+import "./App.css";
+import logo from "./logo.svg";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         ESW- 100% biodegradable Moreno is coming!
-        </p>
-          moreno@ecologysystemworld.io
-          Website Construction in progress
-        </a>
+        <p>ESW- 100% biodegradable Moreno is coming!</p>
+        moreno@ecologysystemworld.io Website Construction in progress
       </header>
     </div>
   );
