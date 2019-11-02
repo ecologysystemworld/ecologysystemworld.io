@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>ESW- 100% biodegradable Moreno is coming!</p>
+        <p>ESW- 100% biodegradable is coming!</p>
         moreno@ecologysystemworld.io Website Construction in progress
       </header>
     </div>
