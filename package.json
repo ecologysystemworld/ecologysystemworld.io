@@ -5,8 +5,11 @@
   "homepage": "https://ecologysystemworld.github.io",
   "main": "src/index.js",
   "dependencies": {
+    "@material-ui/core": "^4.7.1",
+    "@material-ui/icons": "^4.5.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },
   "scripts": {
@@ -33,6 +36,12 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/polyfill": "^7.7.0",
+    "@babel/preset-env": "^7.7.4",
+    "@svgr/cli": "^4.3.3",
+    "babel-plugin-root-import": "^6.4.1",
     "gh-pages": "^2.1.1"
   }
 }
