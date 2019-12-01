@@ -104,7 +104,7 @@ function ProductCTA(props) {
           <Hidden smDown>
             <div className={classes.imageDots} />
             <img
-              src={require("static/themes/ecologysystemworld/productHowItWorks1.svg")}
+              src={require("static/images/world.jpeg")}
               alt="call to action"
               className={classes.image}
             />
