@@ -1,54 +1,54 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
-import Container from '@material-ui/core/Container';
-import Button from '../components/Button';
-import Typography from '../components/Typography';
+import Container from "@material-ui/core/Container";
+import Grid from "@material-ui/core/Grid";
+import { withStyles } from "@material-ui/core/styles";
+import PropTypes from "prop-types";
+import React from "react";
+import Button from "../components/Button";
+import Typography from "../components/Typography";
 
 const styles = theme => ({
   root: {
-    display: 'flex',
+    display: "flex",
     backgroundColor: theme.palette.secondary.light,
-    overflow: 'hidden',
+    overflow: "hidden"
   },
   container: {
     marginTop: theme.spacing(10),
     marginBottom: theme.spacing(15),
-    position: 'relative',
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
+    position: "relative",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center"
   },
   item: {
-    display: 'flex',
-    flexDirection: 'column',
-    alignItems: 'center',
-    padding: theme.spacing(0, 5),
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    padding: theme.spacing(0, 5)
   },
   title: {
-    marginBottom: theme.spacing(14),
+    marginBottom: theme.spacing(14)
   },
   number: {
     fontSize: 24,
     fontFamily: theme.typography.fontFamily,
     color: theme.palette.secondary.main,
-    fontWeight: theme.typography.fontWeightMedium,
+    fontWeight: theme.typography.fontWeightMedium
   },
   image: {
     height: 55,
     marginTop: theme.spacing(4),
-    marginBottom: theme.spacing(4),
+    marginBottom: theme.spacing(4)
   },
   curvyLines: {
-    pointerEvents: 'none',
-    position: 'absolute',
+    pointerEvents: "none",
+    position: "absolute",
     top: -180,
-    opacity: 0.7,
+    opacity: 0.7
   },
   button: {
-    marginTop: theme.spacing(8),
-  },
+    marginTop: theme.spacing(8)
+  }
 });
 
 function ProductHowItWorks(props) {
@@ -58,11 +58,16 @@ function ProductHowItWorks(props) {
     <section className={classes.root}>
       <Container className={classes.container}>
         <img
-          src="src/static/themes/ecologysystemworld/productCurvyLines.png"
+          src={require("static/themes/ecologysystemworld/productCurvyLines.png")}
           className={classes.curvyLines}
           alt="curvy lines"
         />
-        <Typography variant="h4" marked="center" className={classes.title} component="h2">
+        <Typography
+          variant="h4"
+          marked="center"
+          className={classes.title}
+          component="h2"
+        >
           How it works
         </Typography>
         <div>
@@ -71,12 +76,12 @@ function ProductHowItWorks(props) {
               <div className={classes.item}>
                 <div className={classes.number}>1.</div>
                 <img
-                  src="src/static/themes/ecologysystemworld/productHowItWorks1.svg"
+                  src={require("static/themes/ecologysystemworld/productHowItWorks1.svg")}
                   alt="suitcase"
                   className={classes.image}
                 />
                 <Typography variant="h5" align="center">
-                  Appointment every Wednesday 9am.
+                  It all start by tracking the procuts at the source!
                 </Typography>
               </div>
             </Grid>
@@ -84,12 +89,13 @@ function ProductHowItWorks(props) {
               <div className={classes.item}>
                 <div className={classes.number}>2.</div>
                 <img
-                  src="src/static/themes/ecologysystemworld/productHowItWorks2.svg"
+                  src={require("static/themes/ecologysystemworld/productHowItWorks2.svg")}
                   alt="graph"
                   className={classes.image}
                 />
                 <Typography variant="h5" align="center">
-                  First come, first served. Our offers are in limited quantities, so be quick.
+                  To each product it is attached a NFT that is brought around
+                  all thorugh the supply chain
                 </Typography>
               </div>
             </Grid>
@@ -97,13 +103,14 @@ function ProductHowItWorks(props) {
               <div className={classes.item}>
                 <div className={classes.number}>3.</div>
                 <img
-                  src="src/static/themes/ecologysystemworld/productHowItWorks3.svg"
+                  src={require("static/themes/ecologysystemworld/productHowItWorks3.svg")}
                   alt="clock"
                   className={classes.image}
                 />
                 <Typography variant="h5" align="center">
-                  {'New offers every week. New experiences, new surprises. '}
-                  {'Your Sundays will no longer be alike.'}
+                  {
+                    "The NFT ID associated to the product is trasmited trough all sub-supplier till the final distrubutor"
+                  }
                 </Typography>
               </div>
             </Grid>
@@ -125,7 +132,7 @@ function ProductHowItWorks(props) {
 }
 
 ProductHowItWorks.propTypes = {
-  classes: PropTypes.object.isRequired,
+  classes: PropTypes.object.isRequired
 };
 
 export default withStyles(styles)(ProductHowItWorks);
