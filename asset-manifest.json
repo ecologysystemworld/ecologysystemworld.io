@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.498d002a.chunk.css",
-    "main.js": "/static/js/main.49b34490.chunk.js",
-    "main.js.map": "/static/js/main.49b34490.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.44b9d308.js",
-    "runtime-main.js.map": "/static/js/runtime-main.44b9d308.js.map",
-    "static/js/2.f828f65a.chunk.js": "/static/js/2.f828f65a.chunk.js",
-    "static/js/2.f828f65a.chunk.js.map": "/static/js/2.f828f65a.chunk.js.map",
+    "main.css": "/static/css/main.42da2f35.chunk.css",
+    "main.js": "/static/js/main.15e1f86a.chunk.js",
+    "main.js.map": "/static/js/main.15e1f86a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5ca15c27.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5ca15c27.js.map",
+    "static/css/2.c83c8d54.chunk.css": "/static/css/2.c83c8d54.chunk.css",
+    "static/js/2.d6b99648.chunk.js": "/static/js/2.d6b99648.chunk.js",
+    "static/js/2.d6b99648.chunk.js.map": "/static/js/2.d6b99648.chunk.js.map",
+    "b274dfc87be2c63c42c8.worker.js": "/b274dfc87be2c63c42c8.worker.js",
+    "b274dfc87be2c63c42c8.worker.js.LICENSE.txt": "/b274dfc87be2c63c42c8.worker.js.LICENSE.txt",
+    "b274dfc87be2c63c42c8.worker.js.map": "/b274dfc87be2c63c42c8.worker.js.map",
     "index.html": "/index.html",
-    "precache-manifest.be6e0a477f97815ea7a4ad18d8792539.js": "/precache-manifest.be6e0a477f97815ea7a4ad18d8792539.js",
+    "precache-manifest.2316f9c8a4273e1c4ba42273ee296449.js": "/precache-manifest.2316f9c8a4273e1c4ba42273ee296449.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.498d002a.chunk.css.map": "/static/css/main.498d002a.chunk.css.map",
+    "static/css/2.c83c8d54.chunk.css.map": "/static/css/2.c83c8d54.chunk.css.map",
+    "static/css/main.42da2f35.chunk.css.map": "/static/css/main.42da2f35.chunk.css.map",
+    "static/js/2.d6b99648.chunk.js.LICENSE.txt": "/static/js/2.d6b99648.chunk.js.LICENSE.txt",
+    "static/media/Brochure.pdf": "/static/media/Brochure.820c0b46.pdf",
     "static/media/cosmetics.jpg": "/static/media/cosmetics.bee4f6ed.jpg",
+    "static/media/logo.svg": "/static/media/logo.25bf045c.svg",
     "static/media/meat.jpg": "/static/media/meat.cfbf14f8.jpg",
     "static/media/news.jpg": "/static/media/news.5e52ad7e.jpg",
     "static/media/producBuoy.svg": "/static/media/producBuoy.4bba4fca.svg",
@@ -29,9 +37,10 @@
     "static/media/world.jpeg": "/static/media/world.946f57e5.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.44b9d308.js",
-    "static/js/2.f828f65a.chunk.js",
-    "static/css/main.498d002a.chunk.css",
-    "static/js/main.49b34490.chunk.js"
+    "static/js/runtime-main.5ca15c27.js",
+    "static/css/2.c83c8d54.chunk.css",
+    "static/js/2.d6b99648.chunk.js",
+    "static/css/main.42da2f35.chunk.css",
+    "static/js/main.15e1f86a.chunk.js"
   ]
 }
