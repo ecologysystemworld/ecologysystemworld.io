@@ -1,5 +1,5 @@
-import { createMuiTheme } from '@material-ui/core/styles';
-import { green, grey, red } from '@material-ui/core/colors';
+import {green, grey, red} from '@material-ui/core/colors';
+import {createMuiTheme} from '@material-ui/core/styles';
 
 const rawTheme = createMuiTheme({
   palette: {
@@ -25,6 +25,7 @@ const rawTheme = createMuiTheme({
     success: {
       xLight: green[50],
       dark: green[700],
+      main: '#ff3366',
     },
   },
   typography: {
