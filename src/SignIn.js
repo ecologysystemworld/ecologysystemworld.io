@@ -1,17 +1,17 @@
-import withRoot from './modules/withRoot';
+import Link from '@material-ui/core/Link';
+import {makeStyles} from '@material-ui/core/styles';
 // --- Post bootstrap -----
 import React from 'react';
-import { Field, Form, FormSpy } from 'react-final-form';
-import { makeStyles } from '@material-ui/core/styles';
-import Link from '@material-ui/core/Link';
+import {Field, Form, FormSpy} from 'react-final-form';
 import Typography from './modules/components/Typography';
-import AppFooter from './modules/views/AppFooter';
-import AppAppBar from './modules/views/AppAppBar';
-import AppForm from './modules/views/AppForm';
-import { email, required } from './modules/form/validation';
-import RFTextField from './modules/form/RFTextField';
 import FormButton from './modules/form/FormButton';
 import FormFeedback from './modules/form/FormFeedback';
+import RFTextField from './modules/form/RFTextField';
+import {email, required} from './modules/form/validation';
+import AppAppBar from './modules/views/AppAppBar';
+import AppFooter from './modules/views/AppFooter';
+import AppForm from './modules/views/AppForm';
+import withRoot from './modules/withRoot';
 
 const useStyles = makeStyles(theme => ({
   form: {
@@ -57,13 +57,21 @@ function SignIn() {
           </Typography>
           <Typography variant="body2" align="center">
             {'Not a member yet? '}
-            <Link href="ecologysystemworld/sign-up/" align="center" underline="always">
+            <Link
+              href="ecologysystemworld/whitePaper/"
+              align="center"
+              underline="always"
+            >
               Sign Up here
             </Link>
           </Typography>
         </React.Fragment>
-        <Form onSubmit={handleSubmit} subscription={{ submitting: true }} validate={validate}>
-          {({ handleSubmit2, submitting }) => (
+        <Form
+          onSubmit={handleSubmit}
+          subscription={{submitting: true}}
+          validate={validate}
+        >
+          {({handleSubmit2, submitting}) => (
             <form onSubmit={handleSubmit2} className={classes.form} noValidate>
               <Field
                 autoComplete="email"
@@ -89,8 +97,8 @@ function SignIn() {
                 type="password"
                 margin="normal"
               />
-              <FormSpy subscription={{ submitError: true }}>
-                {({ submitError }) =>
+              <FormSpy subscription={{submitError: true}}>
+                {({submitError}) =>
                   submitError ? (
                     <FormFeedback className={classes.feedback} error>
                       {submitError}
