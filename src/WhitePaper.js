@@ -66,6 +66,7 @@ class WhitePaper extends React.Component {
                   key={`page_${index + 1}`}
                   pageNumber={index + 1}
                   width={this.state.width}
+                  loading={<div>Please wait!</div>}
                 />
               ))}
             </Document>
