@@ -9,6 +9,7 @@ import ProductValues from './modules/views/ProductValues';
 import ProductHowItWorks from './modules/views/ProductHowItWorks';
 import ProductCTA from './modules/views/ProductCTA';
 import AppAppBar from './modules/views/AppAppBar';
+import TeamSection from './modules/views/TeamSection';
 
 function Index() {
   return (
@@ -18,6 +19,7 @@ function Index() {
       <ProductValues />
       <ProductCategories />
       <ProductHowItWorks />
+      <TeamSection />
       <ProductCTA />
       <ProductSmokingHero />
       <AppFooter />

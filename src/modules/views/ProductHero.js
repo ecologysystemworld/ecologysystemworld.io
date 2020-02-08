@@ -4,6 +4,8 @@ import React from 'react';
 import Button from '../components/Button';
 import Typography from '../components/Typography';
 import ProductHeroLayout from './ProductHeroLayout';
+import Countdown from 'react-countdown-now'
+import './Views.css';
 
 const backgroundImage = require('static/images/world.jpeg');
 
@@ -61,8 +63,11 @@ function ProductHero(props) {
         White Paper
       </Button>
       <Typography variant="body2" color="inherit" className={classes.more}>
-        Official ICO starting January 20th
+        Official ICO starting April 1
       </Typography>
+      <div className={"Counter"}>
+        <Countdown precision={0} intervalDelay={0} date="2020-04-01T00:00:00"/>
+      </div>
     </ProductHeroLayout>
   );
 }
