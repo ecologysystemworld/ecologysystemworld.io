@@ -31,7 +31,12 @@ class WhitePaper extends React.Component {
   }
 
   setDivSize = () => {
-    this.setState({width: this.pdfWrapper.getBoundingClientRect().width});
+    this.setState({
+      width:
+        this.pdfWrapper.getBoundingClientRect().width < 980
+          ? this.pdfWrapper.getBoundingClientRect().width < 980
+          : 980,
+    });
   };
 
   onDocumentLoadSuccess = ({numPages}) => {
