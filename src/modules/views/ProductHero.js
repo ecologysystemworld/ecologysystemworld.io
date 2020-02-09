@@ -63,10 +63,10 @@ function ProductHero(props) {
         White Paper
       </Button>
       <Typography variant="body2" color="inherit" className={classes.more}>
-        Official ICO starting April 1
+        Official ICO starting April 6
       </Typography>
       <div className={"Counter"}>
-        <Countdown precision={0} intervalDelay={0} date="2020-04-01T00:00:00"/>
+        <Countdown precision={0} intervalDelay={0} date="2020-04-06T00:00:00"/>
       </div>
     </ProductHeroLayout>
   );
