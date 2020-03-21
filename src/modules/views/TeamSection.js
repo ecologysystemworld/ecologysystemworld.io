@@ -73,7 +73,7 @@ function TeamSection(props) {
                     <div class="container">
                         <h2>Fabrizio Otri</h2>
                         <p class="title">CMO</p>
-                        <p class="description">Fabrizio Foti has been in the world of cryptocurrency since 2016, and has also created and built successful startup companies in Italy. He is now focused on Eilat Diamonds and ESW.</p>
+                        <p class="description">Fabrizio Foti has been in the world of cryptocurrency since 2016, and has also created and built successful startup companies in Italy. He is now focused on Eilat and ESW.</p>
                     </div>
                 </div>
             </Grid>
@@ -81,7 +81,7 @@ function TeamSection(props) {
                 <div class="card">
                     <img src="img3.jpg" alt="Aurora" style={{width:'100%'}}/>
                     <div class="container">
-                        <h2>Aurora De Fazio</h2>
+                        <h2>Aurora Mauro</h2>
                         <p class="title">Business social advisor</p>
                     </div>
                 </div>
