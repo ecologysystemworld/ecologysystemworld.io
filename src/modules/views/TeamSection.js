@@ -4,10 +4,10 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import Container from "@material-ui/core/Container";
 import Typography from '../components/Typography';
-/*import aneta from 'static/images/faces/aneta.jpg';
 import moreno from 'static/images/faces/moreno.jpg';
+import aneta from 'static/images/faces/aneta.jpg';
 import fabrizio from 'static/images/faces/fabrizio.jpg';
-*/
+
 const backgroundImage = require('static/images/world.jpeg');
 
 const styles = theme => ({
@@ -49,7 +49,7 @@ function TeamSection(props) {
         <Grid container spacing={5}>
             <Grid item xs={12} md={3}>
                 <div class="card">
-                    <img src="static/images/faces/aneta.jpg" alt="Moreno" style={{width:'100%'}}/>
+                    <img src={moreno} alt="Moreno" style={{width:'100%'}}/>
                     <div class="container">
                         <h2>Moreno De Fazio</h2>
                         <p class="title">CEO &amp; Founder</p>
@@ -59,7 +59,7 @@ function TeamSection(props) {
             </Grid>
             <Grid item xs={12} md={3}>
                 <div class="card">
-                    <img src="Aneta.jpg" alt="Aneta" style={{width:'100%'}}/>
+                    <img src={aneta} alt="Aneta" style={{width:'100%'}}/>
                     <div class="container">
                         <h2>Aneta Karbowiak</h2>
                         <p class="title">Collaborator</p>
@@ -69,7 +69,7 @@ function TeamSection(props) {
             </Grid>
             <Grid item xs={12} md={3}>
                 <div class="card">
-                    <img src="img3.jpg" alt="Fabrizio" style={{width:'100%'}}/>
+                    <img src={fabrizio} alt="Fabrizio" style={{width:'100%'}}/>
                     <div class="container">
                         <h2>Fabrizio Otri</h2>
                         <p class="title">CMO</p>
