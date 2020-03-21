@@ -47,16 +47,17 @@ function TeamSection(props) {
             Meet our team
         </Typography>
         <Grid container spacing={5}>
-            <Grid item xs={12} md={4}>
+            <Grid item xs={12} md={3}>
                 <div class="card">
                     <img src="static/images/faces/aneta.jpg" alt="Moreno" style={{width:'100%'}}/>
                     <div class="container">
                         <h2>Moreno De Fazio</h2>
                         <p class="title">CEO &amp; Founder</p>
+                        <p class="description">in the world of cryptocurrencies since 2014 Moreno De Fazio has decided to create ESW dreaming of a world without counterfeiting and with greater transparency.</p>
                     </div>
                 </div>
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid item xs={12} md={3}>
                 <div class="card">
                     <img src="Aneta.jpg" alt="Aneta" style={{width:'100%'}}/>
                     <div class="container">
@@ -66,12 +67,21 @@ function TeamSection(props) {
                     </div>
                 </div>
             </Grid>
-            <Grid item xs={12} md={4}>
+            <Grid item xs={12} md={3}>
                 <div class="card">
                     <img src="img3.jpg" alt="Fabrizio" style={{width:'100%'}}/>
                     <div class="container">
-                        <h2>Fabrizio </h2>
+                        <h2>Fabrizio Otri</h2>
                         <p class="title">CMO</p>
+                    </div>
+                </div>
+            </Grid>
+            <Grid item xs={12} md={3}>
+                <div class="card">
+                    <img src="img3.jpg" alt="Aurora" style={{width:'100%'}}/>
+                    <div class="container">
+                        <h2>Aurora De Fazio</h2>
+                        <p class="title">Business social advisor</p>
                     </div>
                 </div>
             </Grid>
