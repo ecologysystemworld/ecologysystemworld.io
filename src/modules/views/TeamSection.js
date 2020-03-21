@@ -73,6 +73,7 @@ function TeamSection(props) {
                     <div class="container">
                         <h2>Fabrizio Otri</h2>
                         <p class="title">CMO</p>
+                        <p class="description">Fabrizio Foti has been in the world of cryptocurrency since 2016, and has also created and built successful startup companies in Italy. He is now focused on Eilat Diamonds and ESW.</p>
                     </div>
                 </div>
             </Grid>
