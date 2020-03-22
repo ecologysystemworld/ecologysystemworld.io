@@ -7,6 +7,7 @@ import Typography from '../components/Typography';
 import moreno from 'static/images/faces/moreno.jpg';
 import aneta from 'static/images/faces/aneta.jpg';
 import fabrizio from 'static/images/faces/fabrizio.jpg';
+import aurora from 'static/images/faces/aurora.jpg';
 
 const backgroundImage = require('static/images/world.jpeg');
 
@@ -79,10 +80,11 @@ function TeamSection(props) {
             </Grid>
             <Grid item xs={12} md={3}>
                 <div class="card">
-                    <img src="img3.jpg" alt="Aurora" style={{width:'100%'}}/>
+                    <img src={aurora} alt="Aurora" style={{width:'100%'}}/>
                     <div class="container">
                         <h2>Aurora Mauro</h2>
                         <p class="title">Business social advisor</p>
+                        <p class="description">Social media expert, present in the blockchain field since 2018. Aurora Mauro BUSINESS SOCIAL MANAGER will take care of the whole social part and will answer all questions from the community.</p>
                     </div>
                 </div>
             </Grid>
