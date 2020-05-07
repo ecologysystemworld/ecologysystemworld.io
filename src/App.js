@@ -1,7 +1,7 @@
 import Home from 'Home';
 import NoMatch from 'NoMatch';
 import React from 'react';
-import {HashRouter, Redirect, Route, Switch} from 'react-router-dom';
+import {HashRouter, Route, Switch} from 'react-router-dom';
 import WhitePaper from 'WhitePaper';
 import './App.css';
 import logo from './logo.svg';
@@ -14,9 +14,8 @@ class App extends React.Component {
         <Route
           render={({location}) => (
             <Switch location={location}>
-              <Route path="/home" component={Home} />
-              <Route path="/whitePaper" component={WhitePaper} />
-              <Redirect exact from="/" to="/home/" />
+              <Route exact="/home" component={Home} />
+              <Route exact="/whitePaper" component={WhitePaper} />
               <Route component={NoMatch} />
               <div className="App">
                 <header className="App-header">
