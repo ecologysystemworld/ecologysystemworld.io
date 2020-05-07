@@ -5,6 +5,7 @@ import Countdown from 'react-countdown-now';
 import Button from '../components/Button';
 import Typography from '../components/Typography';
 import ProductHeroLayout from './ProductHeroLayout';
+import {Link} from 'react-router-dom';
 import './Views.css';
 
 const backgroundImage = require('static/images/world.jpeg');
@@ -52,16 +53,17 @@ function ProductHero(props) {
       >
         The first ecofriendly project on EOS for a better world
       </Typography>
-      <Button
-        color="secondary"
-        variant="contained"
-        size="large"
-        className={classes.button}
-        component="a"
-        href="/whitePaper/"
-      >
-        White Paper
-      </Button>
+      <Link to="whitePaper">
+        <Button
+          color="secondary"
+          variant="contained"
+          size="large"
+          className={classes.button}
+          
+        >
+          White Paper
+        </Button>
+      </Link>
       <Typography variant="body2" color="inherit" className={classes.more}>
         Official ICO starting June 15
       </Typography>
