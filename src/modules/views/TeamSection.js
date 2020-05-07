@@ -11,7 +11,7 @@ import Typography from '../components/Typography';
 
 const backgroundImage = require('static/images/world.jpeg');
 
-const styles = theme => ({
+const styles = (theme) => ({
   root: {
     marginTop: theme.spacing(8),
     marginBottom: theme.spacing(4),
@@ -90,7 +90,7 @@ function TeamSection(props) {
           <div class="card">
             <img src={fabrizio} alt="Fabrizio" style={{width: '100%'}} />
             <div class="container">
-              <h2>Fabrizio Otri</h2>
+              <h2>Fabrizio Foti</h2>
               <p class="title">CMO</p>
               <p class="description">
                 Fabrizio Foti has been in the world of cryptocurrency since
