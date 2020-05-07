@@ -1,7 +1,7 @@
 import Home from 'Home';
 import NoMatch from 'NoMatch';
 import React from 'react';
-import {Redirect, Route, Router, Switch} from 'react-router-dom';
+import {BrowserRouter, Redirect, Route, Switch} from 'react-router-dom';
 import WhitePaper from 'WhitePaper';
 import './App.css';
 import logo from './logo.svg';
@@ -10,7 +10,7 @@ class App extends React.Component {
   render() {
     const history = this.props.hist;
     return (
-      <Router history={history}>
+      <BrowserRouter history={history} basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/home" component={Home} />
           <Route path="/whitePaper" component={WhitePaper} />
@@ -25,7 +25,7 @@ class App extends React.Component {
             </header>
           </div>
         </Switch>
-      </Router>
+      </BrowserRouter>
     );
   }
 }
