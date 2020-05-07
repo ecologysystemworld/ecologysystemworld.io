@@ -11,20 +11,24 @@ class App extends React.Component {
     const history = this.props.hist;
     return (
       <HashRouter history={history} basename={process.env.PUBLIC_URL}>
-        <Switch>
-          <Route path="/home" component={Home} />
-          <Route path="/whitePaper" component={WhitePaper} />
-          <Redirect exact from="/" to="/home/" />
-          <Route component={NoMatch} />
-          <div className="App">
-            <header className="App-header">
-              <img src={logo} className="App-logo" alt="logo" />
-              <h1>ESW- 100% biodegradable is coming!</h1>
-              <h3>Website Construction in progress</h3>
-              <h4>moreno@ecologysystemworld.io</h4>
-            </header>
-          </div>
-        </Switch>
+        <Route
+          render={({location}) => (
+            <Switch location={location}>
+              <Route path="/home" component={Home} />
+              <Route path="/whitePaper" component={WhitePaper} />
+              <Redirect exact from="/" to="/home/" />
+              <Route component={NoMatch} />
+              <div className="App">
+                <header className="App-header">
+                  <img src={logo} className="App-logo" alt="logo" />
+                  <h1>ESW- 100% biodegradable is coming!</h1>
+                  <h3>Website Construction in progress</h3>
+                  <h4>moreno@ecologysystemworld.io</h4>
+                </header>
+              </div>
+            </Switch>
+          )}
+        ></Route>
       </HashRouter>
     );
   }
