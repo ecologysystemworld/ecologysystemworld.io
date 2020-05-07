@@ -1,15 +1,15 @@
 import {withStyles} from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import React from 'react';
+import Countdown from 'react-countdown-now';
 import Button from '../components/Button';
 import Typography from '../components/Typography';
 import ProductHeroLayout from './ProductHeroLayout';
-import Countdown from 'react-countdown-now'
 import './Views.css';
 
 const backgroundImage = require('static/images/world.jpeg');
 
-const styles = theme => ({
+const styles = (theme) => ({
   background: {
     backgroundImage: `url(${backgroundImage})`,
     backgroundColor: '#7fc7d9', // Average color of the background image.
@@ -63,10 +63,10 @@ function ProductHero(props) {
         White Paper
       </Button>
       <Typography variant="body2" color="inherit" className={classes.more}>
-        Official ICO starting April 6
+        Official ICO starting June 15
       </Typography>
-      <div className={"Counter"}>
-        <Countdown precision={0} intervalDelay={0} date="2020-04-06T00:00:00"/>
+      <div className={'Counter'}>
+        <Countdown precision={0} intervalDelay={0} date="2020-06-15T00:00:00" />
       </div>
     </ProductHeroLayout>
   );
