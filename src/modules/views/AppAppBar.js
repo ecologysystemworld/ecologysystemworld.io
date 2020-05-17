@@ -52,6 +52,7 @@ function AppAppBar(props) {
           >
             {'Ecology System World'}
           </Link>
+          {/*
           <div className={classes.right}>
             <Link
               color="inherit"
@@ -71,6 +72,7 @@ function AppAppBar(props) {
               {'Sign Up'}
             </Link>
           </div>
+          */}
         </Toolbar>
       </AppBar>
       <div className={classes.placeholder} />
