@@ -15,6 +15,7 @@ const styles = (theme) => ({
   root: {
     marginTop: theme.spacing(8),
     marginBottom: theme.spacing(4),
+    flex: '1 0 auto',
   },
   background: {
     backgroundImage: `url(${backgroundImage})`,

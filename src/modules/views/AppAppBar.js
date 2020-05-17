@@ -39,7 +39,7 @@ function AppAppBar(props) {
   const { classes } = props;
 
   return (
-    <div>
+    <>
       <AppBar position="fixed">
         <Toolbar className={classes.toolbar}>
           <div className={classes.left} />
@@ -74,7 +74,7 @@ function AppAppBar(props) {
         </Toolbar>
       </AppBar>
       <div className={classes.placeholder} />
-    </div>
+    </>
   );
 }
 

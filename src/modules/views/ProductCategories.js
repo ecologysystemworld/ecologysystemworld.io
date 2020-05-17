@@ -8,7 +8,8 @@ import Typography from "../components/Typography";
 const styles = theme => ({
   root: {
     marginTop: theme.spacing(8),
-    marginBottom: theme.spacing(4)
+    marginBottom: theme.spacing(4),
+    flex: '1 0 auto',
   },
   images: {
     marginTop: theme.spacing(8),

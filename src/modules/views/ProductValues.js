@@ -9,6 +9,7 @@ const styles = theme => ({
   root: {
     display: "flex",
     overflow: "hidden",
+    flex: '1 0 auto',
     backgroundColor: theme.palette.secondary.light
   },
   container: {

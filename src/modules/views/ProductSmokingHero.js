@@ -10,6 +10,7 @@ const styles = theme => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+    flex: '1 0 auto',
     marginTop: theme.spacing(9),
     marginBottom: theme.spacing(9)
   },

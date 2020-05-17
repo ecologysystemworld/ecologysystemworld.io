@@ -1,7 +1,5 @@
 // --- Post bootstrap -----
-import throttle from 'lodash.throttle';
 import React from 'react';
-import {Document} from 'react-pdf/dist/entry.webpack';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 import whitePaper from 'static/PDF/Brochure.pdf';
 import AppAppBar from './modules/views/AppAppBar';
@@ -22,7 +20,6 @@ class WhitePaper extends React.Component {
         <div
           id="row"
           style={{
-            width: '100vw',
             display: 'flex',
             overflow: 'hidden',
             alignItems: 'center',

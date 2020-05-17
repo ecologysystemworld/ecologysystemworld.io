@@ -10,6 +10,7 @@ const styles = theme => ({
     position: "relative",
     display: "flex",
     alignItems: "center",
+    flex: '1 0 auto',
     [theme.breakpoints.up("sm")]: {
       height: "80vh",
       minHeight: 500,

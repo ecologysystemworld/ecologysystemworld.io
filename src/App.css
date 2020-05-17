@@ -22,7 +22,23 @@
 }
 
 #root {
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   height: 100vh;
+}
+
+.page-controls {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  background: white;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: opacity ease-in-out 0.2s;
+  box-shadow: 0 30px 40px 0 rgba(16, 36, 94, 0.2);
+  border-radius: 4px;
+}
+.react-pdf__Document:hover 
+.page-controls {
+  opacity: 1;
 }

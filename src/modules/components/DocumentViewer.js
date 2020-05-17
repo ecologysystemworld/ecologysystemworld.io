@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Document, Page } from 'react-pdf';
+import { Document, Page } from 'react-pdf/dist/entry.webpack';
 import Button from '../components/Button';
 
 export default function DocumentViewer(props) {
@@ -24,32 +24,43 @@ export default function DocumentViewer(props) {
   }
 
   return (
-    <React.Fragment>
+    <div style={{
+            display: 'flex',
+            flex: '1 0 auto',
+            position: 'relative'
+          }}
+        >
       <Document
         file={props.document}
         onLoadSuccess={onDocumentLoadSuccess}
+        loading={<div>Loading WhitePaper</div>}
+        options={{
+          cMapUrl: 'cmaps/',
+          cMapPacked: true,
+        }}
       >
         <Page pageNumber={pageNumber} />
+        <div class="page-controls">
+          <Button
+            type="button"
+            disabled={pageNumber <= 1}
+            onClick={previousPage}
+          >
+            Previous
+          </Button>
+          <span>
+            {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
+          </span>
+          <Button
+            type="button"
+            disabled={pageNumber >= numPages}
+            onClick={nextPage}
+          >
+            Next
+          </Button>
+        </div>
       </Document>
-      <div>
-        <p>
-          Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
-        </p>
-        <Button
-          type="button"
-          disabled={pageNumber <= 1}
-          onClick={previousPage}
-        >
-          Previous
-        </Button>
-        <Button
-          type="button"
-          disabled={pageNumber >= numPages}
-          onClick={nextPage}
-        >
-          Next
-        </Button>
-      </div>
-    </React.Fragment>
+      
+    </div>
   );
 }

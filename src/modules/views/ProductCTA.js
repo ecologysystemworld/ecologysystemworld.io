@@ -13,6 +13,7 @@ const styles = theme => ({
   root: {
     marginTop: theme.spacing(10),
     marginBottom: 0,
+    flex: '1 0 auto',
     display: "flex"
   },
   cardWrapper: {
