@@ -124,6 +124,7 @@ export default function AppFooter() {
             </ul>
           </Grid>
           <Grid item xs={6} sm={8} md={4}>
+            {/*
             <Typography variant="h6" marked="left" gutterBottom>
               Language
             </Typography>
@@ -140,6 +141,7 @@ export default function AppFooter() {
                 </option>
               ))}
             </TextField>
+              */}
           </Grid>
           <Grid item>
 
