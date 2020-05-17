@@ -5,7 +5,7 @@ import Countdown from 'react-countdown-now';
 import Button from '../components/Button';
 import Typography from '../components/Typography';
 import ProductHeroLayout from './ProductHeroLayout';
-import {Link} from 'react-router-dom';
+import {Link } from 'react-router-dom';
 import './Views.css';
 
 const backgroundImage = require('static/images/world.jpeg');
@@ -53,7 +53,7 @@ function ProductHero(props) {
       >
         The first ecofriendly project on EOS for a better world
       </Typography>
-      <Link to="whitePaper">
+      <Link to="/whitePaper">
         <Button
           color="secondary"
           variant="contained"

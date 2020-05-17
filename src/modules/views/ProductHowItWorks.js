@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import Button from '../components/Button';
 import Typography from '../components/Typography';
+import {Link } from 'react-router-dom';
 
 const styles = theme => ({
   root: {
@@ -116,16 +117,18 @@ function ProductHowItWorks(props) {
             </Grid>
           </Grid>
         </div>
-        <Button
-          color="secondary"
-          size="large"
-          variant="contained"
-          className={classes.button}
-          component="a"
-          href="/whitePaper/"
-        >
-          Get started
-        </Button>
+        <Link to="/whitePaper">
+          <Button
+            color="secondary"
+            size="large"
+            variant="contained"
+            className={classes.button}
+            component="a"
+            href="/whitePaper/"
+          >
+            Get started
+          </Button>
+        </Link>
       </Container>
     </section>
   );
