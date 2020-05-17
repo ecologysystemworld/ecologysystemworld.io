@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.05e7af00.chunk.css",
-    "main.js": "/static/js/main.80c59fe3.chunk.js",
-    "main.js.map": "/static/js/main.80c59fe3.chunk.js.map",
+    "main.css": "/static/css/main.23c67835.chunk.css",
+    "main.js": "/static/js/main.898ffbbd.chunk.js",
+    "main.js.map": "/static/js/main.898ffbbd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5ca15c27.js",
     "runtime-main.js.map": "/static/js/runtime-main.5ca15c27.js.map",
     "static/css/2.c83c8d54.chunk.css": "/static/css/2.c83c8d54.chunk.css",
-    "static/js/2.13b04dd3.chunk.js": "/static/js/2.13b04dd3.chunk.js",
-    "static/js/2.13b04dd3.chunk.js.map": "/static/js/2.13b04dd3.chunk.js.map",
+    "static/js/2.0071ecad.chunk.js": "/static/js/2.0071ecad.chunk.js",
+    "static/js/2.0071ecad.chunk.js.map": "/static/js/2.0071ecad.chunk.js.map",
     "b274dfc87be2c63c42c8.worker.js": "/b274dfc87be2c63c42c8.worker.js",
     "b274dfc87be2c63c42c8.worker.js.LICENSE.txt": "/b274dfc87be2c63c42c8.worker.js.LICENSE.txt",
     "b274dfc87be2c63c42c8.worker.js.map": "/b274dfc87be2c63c42c8.worker.js.map",
     "index.html": "/index.html",
-    "precache-manifest.c2c186e79a15763cbf3da38e9d3c195b.js": "/precache-manifest.c2c186e79a15763cbf3da38e9d3c195b.js",
+    "precache-manifest.c6006fbf2ce06d72e0dadbacecd925e1.js": "/precache-manifest.c6006fbf2ce06d72e0dadbacecd925e1.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.c83c8d54.chunk.css.map": "/static/css/2.c83c8d54.chunk.css.map",
-    "static/css/main.05e7af00.chunk.css.map": "/static/css/main.05e7af00.chunk.css.map",
-    "static/js/2.13b04dd3.chunk.js.LICENSE.txt": "/static/js/2.13b04dd3.chunk.js.LICENSE.txt",
+    "static/css/main.23c67835.chunk.css.map": "/static/css/main.23c67835.chunk.css.map",
+    "static/js/2.0071ecad.chunk.js.LICENSE.txt": "/static/js/2.0071ecad.chunk.js.LICENSE.txt",
     "static/media/Brochure.pdf": "/static/media/Brochure.820c0b46.pdf",
     "static/media/aneta.jpg": "/static/media/aneta.efe98c61.jpg",
     "static/media/aurora.jpg": "/static/media/aurora.7192cc3b.jpg",
@@ -43,8 +43,8 @@
   "entrypoints": [
     "static/js/runtime-main.5ca15c27.js",
     "static/css/2.c83c8d54.chunk.css",
-    "static/js/2.13b04dd3.chunk.js",
-    "static/css/main.05e7af00.chunk.css",
-    "static/js/main.80c59fe3.chunk.js"
+    "static/js/2.0071ecad.chunk.js",
+    "static/css/main.23c67835.chunk.css",
+    "static/js/main.898ffbbd.chunk.js"
   ]
 }
