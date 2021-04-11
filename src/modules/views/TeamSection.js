@@ -74,7 +74,7 @@ function TeamSection(props) {
           <div class="card">
             <img src={aneta} alt="Aneta" style={{ width: '100%' }} />
             <div class="container">
-              <h2>Aneta Karbowiak</h2>
+              <h2>Aneta</h2>
               <p class="title">Advisor</p>
               <p class="description">
                 Aneta Karbowiak is an early actor in the EOSIO realm with a deep
@@ -92,7 +92,7 @@ function TeamSection(props) {
           <div class="card">
             <img src={fabrizio} alt="Fabrizio" style={{ width: '100%' }} />
             <div class="container">
-              <h2>Fabrizio Foti</h2>
+              <h2>Fabrizio</h2>
               <p class="title">CMO</p>
               <p class="description">
                 Fabrizio Foti has been in the world of cryptocurrency since
@@ -106,7 +106,7 @@ function TeamSection(props) {
           <div class="card">
             <img src={aurora} alt="Aurora" style={{ width: '100%' }} />
             <div class="container">
-              <h2>Aurora Mauro</h2>
+              <h2>Aurora</h2>
               <p class="title">Business social advisor</p>
               <p class="description">
                 Social media expert, present in the blockchain field since 2018.
