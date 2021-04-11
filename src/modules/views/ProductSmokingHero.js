@@ -3,6 +3,7 @@ import Container from "@material-ui/core/Container";
 import { withStyles } from "@material-ui/core/styles";
 import PropTypes from "prop-types";
 import React from "react";
+import producBuoy from "static/themes/ecologysystemworld/producBuoy.svg";
 import Typography from "../components/Typography";
 
 const styles = theme => ({
@@ -43,7 +44,7 @@ function ProductSmokingHero(props) {
         We are here to help. Get in touch!
       </Typography>
       <img
-        src={require("static/themes/ecologysystemworld/producBuoy.svg")}
+        src={producBuoy}
         className={classes.buoy}
         alt="buoy"
       />

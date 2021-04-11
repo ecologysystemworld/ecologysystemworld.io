@@ -4,11 +4,11 @@ import Hidden from "@material-ui/core/Hidden";
 import { withStyles } from "@material-ui/core/styles";
 import PropTypes from "prop-types";
 import React from "react";
+import news from "static/images/news.jpg";
 import Button from "../components/Button";
 import Snackbar from "../components/Snackbar";
 import TextField from "../components/TextField";
 import Typography from "../components/Typography";
-
 const styles = theme => ({
   root: {
     marginTop: theme.spacing(10),
@@ -105,7 +105,7 @@ function ProductCTA(props) {
           <Hidden smDown>
             <div className={classes.imageDots} />
             <img
-              src={require("static/images/news.jpg")}
+              src={news}
               alt="call to action"
               className={classes.image}
             />

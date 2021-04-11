@@ -5,15 +5,15 @@
   "homepage": "https://ecologysystemworld.github.io",
   "main": "src/index.js",
   "dependencies": {
-    "@material-ui/core": "^4.9.1",
-    "@material-ui/icons": "^4.9.1",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
     "lodash.throttle": "^4.1.1",
-    "react": "^16.11.0",
+    "react": "^17.0.2",
     "react-countdown-now": "^2.1.2",
-    "react-dom": "^16.11.0",
-    "react-pdf": "^4.1.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.1"
+    "react-dom": "^17.0.2",
+    "react-pdf": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,12 +39,12 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.8.4",
-    "@babel/polyfill": "^7.8.3",
-    "@babel/preset-env": "^7.8.4",
-    "@svgr/cli": "^5.1.0",
-    "babel-plugin-root-import": "^6.4.1",
-    "gh-pages": "^2.2.0"
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.13.15",
+    "@svgr/cli": "^5.5.0",
+    "babel-plugin-root-import": "^6.6.0",
+    "gh-pages": "^3.1.0"
   }
 }

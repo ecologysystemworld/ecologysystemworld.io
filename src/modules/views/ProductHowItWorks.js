@@ -1,11 +1,15 @@
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
-import {withStyles} from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import React from 'react';
+import { Link } from 'react-router-dom';
+import productCurvyLines from 'static/themes/ecologysystemworld/productCurvyLines.png';
+import productHowItWorks1 from 'static/themes/ecologysystemworld/productHowItWorks1.svg';
+import productHowItWorks2 from 'static/themes/ecologysystemworld/productHowItWorks2.svg';
+import productHowItWorks3 from 'static/themes/ecologysystemworld/productHowItWorks3.svg';
 import Button from '../components/Button';
 import Typography from '../components/Typography';
-import {Link } from 'react-router-dom';
 
 const styles = theme => ({
   root: {
@@ -54,13 +58,13 @@ const styles = theme => ({
 });
 
 function ProductHowItWorks(props) {
-  const {classes} = props;
+  const { classes } = props;
 
   return (
     <section className={classes.root}>
       <Container className={classes.container}>
         <img
-          src={require('static/themes/ecologysystemworld/productCurvyLines.png')}
+          src={productCurvyLines}
           className={classes.curvyLines}
           alt="curvy lines"
         />
@@ -78,7 +82,7 @@ function ProductHowItWorks(props) {
               <div className={classes.item}>
                 <div className={classes.number}>1.</div>
                 <img
-                  src={require('static/themes/ecologysystemworld/productHowItWorks1.svg')}
+                  src={productHowItWorks1}
                   alt="suitcase"
                   className={classes.image}
                 />
@@ -91,7 +95,7 @@ function ProductHowItWorks(props) {
               <div className={classes.item}>
                 <div className={classes.number}>2.</div>
                 <img
-                  src={require('static/themes/ecologysystemworld/productHowItWorks2.svg')}
+                  src={productHowItWorks2}
                   alt="graph"
                   className={classes.image}
                 />
@@ -105,7 +109,7 @@ function ProductHowItWorks(props) {
               <div className={classes.item}>
                 <div className={classes.number}>3.</div>
                 <img
-                  src={require('static/themes/ecologysystemworld/productHowItWorks3.svg')}
+                  src={productHowItWorks3}
                   alt="clock"
                   className={classes.image}
                 />

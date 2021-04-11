@@ -3,6 +3,13 @@ import Container from "@material-ui/core/Container";
 import { withStyles } from "@material-ui/core/styles";
 import PropTypes from "prop-types";
 import React from "react";
+import cosmetics from "static/images/cosmetics.jpg";
+import meat from "static/images/meat.jpg";
+import seafood from "static/images/seafood.jpg";
+import sportDrinks from "static/images/sportDrinks.jpg";
+import tech from "static/images/tech.jpeg";
+import vegetables from "static/images/vegetables.jpeg";
+import wine from "static/images/wine.jpg";
 import Typography from "../components/Typography";
 
 const styles = theme => ({
@@ -89,22 +96,22 @@ function ProductCategories(props) {
 
   const images = [
     {
-      url: require("static/images/seafood.jpg"),
+      url: seafood,
       title: "Seafood",
       width: "40%"
     },
     {
-      url: require("static/images/cosmetics.jpg"),
+      url: cosmetics,
       title: "Cosmetics",
       width: "20%"
     },
     {
-      url: require("static/images/sportDrinks.jpg"),
+      url: sportDrinks,
       title: "Sport products",
       width: "40%"
     },
     {
-      url: require("static/images/meat.jpg"),
+      url: meat,
       title: "Meat",
       width: "38%"
     },
@@ -121,17 +128,17 @@ function ProductCategories(props) {
       width: "24%"
     },
     {
-      url: require("static/images/vegetables.jpeg"),
+      url: vegetables,
       title: "Vegetables",
       width: "40%"
     },
     {
-      url: require("static/images/wine.jpg"),
+      url: wine,
       title: "Wine",
       width: "20%"
     },
     {
-      url: require("static/images/tech.jpeg"),
+      url: tech,
       title: "Tech products",
       width: "40%"
     }

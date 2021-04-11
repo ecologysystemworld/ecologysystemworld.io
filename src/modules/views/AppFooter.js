@@ -3,8 +3,10 @@ import Grid from "@material-ui/core/Grid";
 import Link from "@material-ui/core/Link";
 import { makeStyles } from "@material-ui/core/styles";
 import React from "react";
-import TextField from "../components/TextField";
+import appFooterFacebook from 'static/themes/ecologysystemworld/appFooterFacebook.png';
+import appFooterTwitter from 'static/themes/ecologysystemworld/appFooterTwitter.png';
 import Typography from "../components/Typography";
+
 
 function Copyright() {
   return (
@@ -91,7 +93,7 @@ export default function AppFooter() {
               <Grid item className={classes.icons}>
                 <a href="https://material-ui.com/" className={classes.icon}>
                   <img
-                    src={require("static/themes/ecologysystemworld/appFooterFacebook.png")}
+                    src={appFooterFacebook}
                     alt="Facebook"
                   />
                 </a>
@@ -100,7 +102,7 @@ export default function AppFooter() {
                   className={classes.icon}
                 >
                   <img
-                    src={require("static/themes/ecologysystemworld/appFooterTwitter.png")}
+                    src={appFooterTwitter}
                     alt="Twitter"
                   />
                 </a>

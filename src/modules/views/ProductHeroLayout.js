@@ -3,6 +3,8 @@ import { withStyles } from "@material-ui/core/styles";
 import clsx from "clsx";
 import PropTypes from "prop-types";
 import React from "react";
+import arrow from 'static/themes/ecologysystemworld/productHeroArrowDown.png';
+import wonder from 'static/themes/ecologysystemworld/productHeroWonder.png';
 
 const styles = theme => ({
   root: {
@@ -57,7 +59,7 @@ function ProductHeroLayout(props) {
     <section className={classes.root}>
       <Container className={classes.container}>
         <img
-          src={require("static/themes/ecologysystemworld/productHeroWonder.png")}
+          src={wonder}
           alt="wonder"
           width="147"
           height="80"
@@ -67,7 +69,7 @@ function ProductHeroLayout(props) {
         <div className={clsx(classes.background, backgroundClassName)} />
         <img
           className={classes.arrowDown}
-          src={require("static/themes/ecologysystemworld/productHeroArrowDown.png")}
+          src={arrow}
           height="16"
           width="12"
           alt="arrow down"

@@ -1,11 +1,10 @@
 // --- Post bootstrap -----
 import React from 'react';
-import 'react-pdf/dist/Page/AnnotationLayer.css';
 import whitePaper from 'static/PDF/Brochure.pdf';
+import DocumentViewer from './modules/components/DocumentViewer';
 import AppAppBar from './modules/views/AppAppBar';
 import AppFooter from './modules/views/AppFooter';
 import withRoot from './modules/withRoot';
-import DocumentViewer from './modules/components/DocumentViewer';
 
 class WhitePaper extends React.Component {
   constructor(props) {

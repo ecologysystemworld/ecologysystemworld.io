@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Document, Page } from 'react-pdf/dist/entry.webpack';
+import { Document, Page } from 'react-pdf';
 import Button from '../components/Button';
 
 export default function DocumentViewer(props) {
@@ -25,11 +25,11 @@ export default function DocumentViewer(props) {
 
   return (
     <div style={{
-            display: 'flex',
-            flex: '1 0 auto',
-            position: 'relative'
-          }}
-        >
+      display: 'flex',
+      flex: '1 0 auto',
+      position: 'relative'
+    }}
+    >
       <Document
         file={props.document}
         onLoadSuccess={onDocumentLoadSuccess}
@@ -60,7 +60,7 @@ export default function DocumentViewer(props) {
           </Button>
         </div>
       </Document>
-      
+
     </div>
   );
 }

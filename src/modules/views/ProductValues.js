@@ -3,6 +3,10 @@ import Grid from "@material-ui/core/Grid";
 import { withStyles } from "@material-ui/core/styles";
 import PropTypes from "prop-types";
 import React from "react";
+import productCurvyLines from "static/themes/ecologysystemworld/productCurvyLines.png";
+import productHowItWorks3 from "static/themes/ecologysystemworld/productHowItWorks3.svg";
+import productValues1 from "static/themes/ecologysystemworld/productValues1.svg";
+import productValues2 from "static/themes/ecologysystemworld/productValues2.svg";
 import Typography from "../components/Typography";
 
 const styles = theme => ({
@@ -45,7 +49,7 @@ function ProductValues(props) {
     <section className={classes.root}>
       <Container className={classes.container}>
         <img
-          src={require("static/themes/ecologysystemworld/productCurvyLines.png")}
+          src={productCurvyLines}
           className={classes.curvyLines}
           alt="curvy lines"
         />
@@ -54,7 +58,7 @@ function ProductValues(props) {
             <div className={classes.item}>
               <img
                 className={classes.image}
-                src={require("static/themes/ecologysystemworld/productValues1.svg")}
+                src={productValues1}
                 alt="suitcase"
               />
               <Typography variant="h6" className={classes.title}>
@@ -70,7 +74,7 @@ function ProductValues(props) {
             <div className={classes.item}>
               <img
                 className={classes.image}
-                src={require("static/themes/ecologysystemworld/productValues2.svg")}
+                src={productValues2}
                 alt="graph"
               />
               <Typography variant="h6" className={classes.title}>
@@ -87,7 +91,7 @@ function ProductValues(props) {
             <div className={classes.item}>
               <img
                 className={classes.image}
-                src={require("static/themes/ecologysystemworld/productHowItWorks3.svg")}
+                src={productHowItWorks3}
                 alt="clock"
               />
               <Typography variant="h6" className={classes.title}>

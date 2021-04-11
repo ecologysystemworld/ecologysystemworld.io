@@ -1,15 +1,16 @@
 import Container from '@material-ui/core/Container';
 import Grid from '@material-ui/core/Grid';
-import {withStyles} from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import PropTypes from 'prop-types';
 import React from 'react';
 import aneta from 'static/images/faces/aneta.jpg';
 import aurora from 'static/images/faces/aurora.jpg';
 import fabrizio from 'static/images/faces/fabrizio.jpg';
 import moreno from 'static/images/faces/moreno.jpg';
+import background from 'static/images/world.jpeg';
 import Typography from '../components/Typography';
 
-const backgroundImage = require('static/images/world.jpeg');
+const Background = require('static/images/world.jpeg');
 
 const styles = (theme) => ({
   root: {
@@ -18,7 +19,7 @@ const styles = (theme) => ({
     flex: '1 0 auto',
   },
   background: {
-    backgroundImage: `url(${backgroundImage})`,
+    backgroundImage: `url(${background})`,
     backgroundColor: '#7fc7d9', // Average color of the background image.
     backgroundPosition: 'center',
   },
@@ -41,7 +42,7 @@ const styles = (theme) => ({
 });
 
 function TeamSection(props) {
-  const {classes} = props;
+  const { classes } = props;
 
   return (
     <Container className={classes.root} component="section">
@@ -57,7 +58,7 @@ function TeamSection(props) {
       <Grid container spacing={5}>
         <Grid item xs={12} md={3}>
           <div class="card">
-            <img src={moreno} alt="Moreno" style={{width: '100%'}} />
+            <img src={moreno} alt="Moreno" style={{ width: '100%' }} />
             <div class="container">
               <h2>Moreno De Fazio</h2>
               <p class="title">CEO &amp; Founder</p>
@@ -71,7 +72,7 @@ function TeamSection(props) {
         </Grid>
         <Grid item xs={12} md={3}>
           <div class="card">
-            <img src={aneta} alt="Aneta" style={{width: '100%'}} />
+            <img src={aneta} alt="Aneta" style={{ width: '100%' }} />
             <div class="container">
               <h2>Aneta Karbowiak</h2>
               <p class="title">Advisor</p>
@@ -89,7 +90,7 @@ function TeamSection(props) {
         </Grid>
         <Grid item xs={12} md={3}>
           <div class="card">
-            <img src={fabrizio} alt="Fabrizio" style={{width: '100%'}} />
+            <img src={fabrizio} alt="Fabrizio" style={{ width: '100%' }} />
             <div class="container">
               <h2>Fabrizio Foti</h2>
               <p class="title">CMO</p>
@@ -103,7 +104,7 @@ function TeamSection(props) {
         </Grid>
         <Grid item xs={12} md={3}>
           <div class="card">
-            <img src={aurora} alt="Aurora" style={{width: '100%'}} />
+            <img src={aurora} alt="Aurora" style={{ width: '100%' }} />
             <div class="container">
               <h2>Aurora Mauro</h2>
               <p class="title">Business social advisor</p>
