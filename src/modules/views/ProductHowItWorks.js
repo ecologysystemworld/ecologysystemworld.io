@@ -87,7 +87,7 @@ function ProductHowItWorks(props) {
                   className={classes.image}
                 />
                 <Typography variant="h5" align="center">
-                  It all start by tracking the procuts at the source!
+                  It all starts by tracking the products at the source!
                 </Typography>
               </div>
             </Grid>
